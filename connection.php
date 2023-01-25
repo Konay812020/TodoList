@@ -14,7 +14,7 @@
     // $con=mysqli_connect("hsotname","username","passowrd","dbname");
     $connect = mysqli_connect("localhost", "nayoolwin", "812020", "todolist");
     if (!$connect) {
-        echo "Database connection Failure";
+        echo "Database connection Fail";
     }
     ?>
 </body>

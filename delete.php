@@ -6,5 +6,5 @@ $sql = "DELETE FROM task WHERE id=$id";
 if (mysqli_query($connect, $sql)) {
     header("Location:./index.php");
 } else {
-    echo "Error...";
+    echo "Error....";
 }
